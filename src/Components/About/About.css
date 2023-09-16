@@ -1,0 +1,28 @@
+.about-container{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-container p{
+    font-size:50px;
+color: aliceblue;
+}
+.about-container h1{
+    font-size: 50px;
+color: black;
+}
+
+@media (max-width: 1200px) {
+    .about-container p{
+        font-size: 37px;
+    color: aliceblue;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-container p{
+        font-size: 27px;
+    color: aliceblue;
+    }
+  }
